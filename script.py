@@ -5,4 +5,5 @@ def main() -> None:
     print(''.join(f'{b:02x}' for b in rb))
 
 if __name__ == '__main__':
+    print("It's main")
     main()
